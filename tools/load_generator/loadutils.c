@@ -1,5 +1,6 @@
 #include "loadutils.h"
 
+
 ull get_num_cpus(void) {
   ull ret = 1;
 #ifdef _SC_NPROCESSORS_ONLN

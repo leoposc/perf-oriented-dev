@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// #define S 1000
-// #define N S
-// #define M S
-// #define K S
+#define S 1000
+#define N S
+#define M S
+#define K S
 
 #define MIN(X, Y) ((X) < (Y) ? (X) : (Y))
 #define MAX(X, Y) ((X) > (Y) ? (X) : (Y))
@@ -32,13 +32,9 @@ void freeMatrix(MATRIX matrix)
 	free(matrix);
 }
 
-int main(int argc, char **argv)
+int main(void)
 {
 
-	int s = stoi(argv[1]);
-	int N = s;
-	int M = s;
-	int K = s;
 
 	// create the matrices
 	MATRIX A = createMatrix(N, M);
