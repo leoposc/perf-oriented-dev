@@ -4,7 +4,7 @@
 
 // the problem size - the number of particles
 #ifndef N
-#define N 1000
+#define N 5000
 #endif
 
 // the second problem size = number of iterations
